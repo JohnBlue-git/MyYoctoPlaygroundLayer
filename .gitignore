@@ -1,0 +1,11 @@
+# Ignore everything by default
+*
+
+# Allow specific files and directories
+!README.md
+!.gitignore
+!manifest.xml
+!meta-*/
+
+# Explicitly ignore poky directory
+poky/
