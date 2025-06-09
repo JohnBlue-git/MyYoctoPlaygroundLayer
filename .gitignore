@@ -4,7 +4,7 @@
 # Allow specific files and directories
 !README.md
 !.gitignore
-!manifest.xml
+!manifest_*.xml
 !meta-*/
 
 # Explicitly ignore poky directory
