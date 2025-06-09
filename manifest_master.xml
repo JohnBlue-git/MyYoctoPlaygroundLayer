@@ -1,10 +1,10 @@
 <manifest>
     <remote name="yocto"
-            fetch="git://git.yoctoproject.org/poky"
+            fetch="git://git.yoctoproject.org"
             revision="master" />
 
-    <remote name="origin"
-            fetch="https://github.com/JohnBlue-git/MyYoctoPlaygroundLayer"
+    <remote name="github"
+            fetch="https://github.com/JohnBlue-git"
             revision="main" />
 
     <project name="poky"
@@ -12,8 +12,8 @@
              remote="yocto"
              revision="master" />
 
-    <project name="meta-johnblue"
-             path="meta-custom/meta-johnblue"
-             remote="origin"
+    <project name="MyYoctoPlaygroundLayer"
+             path="meta-custom"
+             remote="github"
              revision="main" />
 </manifest>
