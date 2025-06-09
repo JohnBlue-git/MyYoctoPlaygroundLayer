@@ -12,7 +12,7 @@
              remote="yocto"
              revision="master" />
 
-    <project name="MyPlaygroundLayer"
+    <project name="meta-johnblue"
              path="meta-custom/meta-johnblue"
              remote="github"
              revision="main" />
