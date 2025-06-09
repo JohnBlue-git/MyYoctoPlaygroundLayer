@@ -6,6 +6,7 @@
 !.gitignore
 !manifest_*.xml
 !meta-*/
+!meta-*/**
 
 # Explicitly ignore poky directory
 poky/
