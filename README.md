@@ -11,6 +11,12 @@ repo sync
 ```
 
 ## How to build
+```bash
+~/MyYoctoPlaygroundLayer$ source poky/oe-init-build-env
+
+~/MyYoctoPlaygroundLayer/build$ bitbake <target> 
+~/MyYoctoPlaygroundLayer/build$ bitbake johnblue-image
+```
 
 ## ...
 
